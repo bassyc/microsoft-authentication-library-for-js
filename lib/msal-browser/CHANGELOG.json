@@ -2,6 +2,48 @@
   "name": "@azure/msal-browser",
   "entries": [
     {
+      "date": "Mon, 23 May 2022 19:43:00 GMT",
+      "tag": "@azure/msal-browser_v2.25.0",
+      "version": "2.25.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "paulrsauer@gmail.com",
+            "package": "@azure/msal-browser",
+            "commit": "96db5ab0dbe4774bd4b79d56d73d12c54789e41a",
+            "comment": "Fixes assignment of expiresOn inside loadExternalTokens to fix issue where all access tokens appear expired during E2E #4711"
+          }
+        ],
+        "none": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "db858a9ef01e9fb4022da75dcdc8f28713099d89",
+            "comment": "Fix failing unit tests #4783"
+          },
+          {
+            "author": "brianmel@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "79d96ca89542170be24d22dc6750d3f20783dd35"
+          }
+        ],
+        "minor": [
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "90365303db30da0fb4817b3e075db137a1ee3e33",
+            "comment": "Add PoP support for Encrypted Access Tokens #4730"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump @azure/msal-common to v6.4.0",
+            "commit": "f9e1379cc194e37525b77a733c9c48fbd3803ff5"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 02 May 2022 22:23:33 GMT",
       "tag": "@azure/msal-browser_v2.24.0",
       "version": "2.24.0",

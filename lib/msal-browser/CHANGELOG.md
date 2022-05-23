@@ -1,8 +1,21 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Mon, 02 May 2022 22:23:33 GMT and should not be manually modified.
+This log was last generated on Mon, 23 May 2022 19:43:00 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.25.0
+
+Mon, 23 May 2022 19:43:00 GMT
+
+### Minor changes
+
+- Add PoP support for Encrypted Access Tokens #4730 (hemoral@microsoft.com)
+- Bump @azure/msal-common to v6.4.0
+
+### Patches
+
+- Fixes assignment of expiresOn inside loadExternalTokens to fix issue where all access tokens appear expired during E2E #4711 (paulrsauer@gmail.com)
 
 ## 2.24.0
 
